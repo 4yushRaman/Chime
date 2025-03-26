@@ -1,0 +1,43 @@
+name: chapp
+description: "A new Flutter project."
+
+publish_to: 'none'  # Keep this if you're not planning to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  # Add Firebase dependencies
+  firebase_core: ^3.12.1  # Firebase initialization
+  firebase_auth: ^5.5.1  # Firebase authentication (if needed)
+  firebase: ^9.0.3
+  cloud_firestore: ^5.6.5
+  provider: ^6.1.2
+  # Add other Firebase plugins as needed
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Optional: Add assets if you need them
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+  #
+  # Optional: Add custom fonts if you need them
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
